@@ -1,0 +1,46 @@
+/* type selector */
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+p{margin-bottom: 3em;}
+
+li{padding: 2em;}
+
+h1{text-shadow: 3px 3px 3px grey;
+    color: black;
+    text-indent: 2em;
+}
+
+
+/* class selector */
+.cS{
+    width: 30%;
+    margin: auto;
+}
+
+
+/* id selector */
+#iS{
+    font-style: normal;
+    text-align: justify;
+}
+
+/* */
+a:hover{
+    color: red;
+    background-color: blanchedalmond;
+}
+
+a:link{
+    color: rgb(0, 26, 255);
+}
+
+a:visited{
+    color: rgb(153, 0, 255);
+}
+
+p:first-letter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5cm;
+    text-shadow: darkgrey;
+    color: orange;
+}
